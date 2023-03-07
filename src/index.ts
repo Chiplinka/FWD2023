@@ -27,7 +27,7 @@ async function renderComic() {
   const image: HTMLImageElement = document.getElementById("imgComic") as HTMLImageElement;
   const date: HTMLParagraphElement = document.getElementById("dateComic") as HTMLParagraphElement;
 
-  const dateComic: Date = new Date(parseInt(comic.year), parseInt(comic.month), parseInt(comic.day));
+  const dateComic: Date = new Date(comic.year, comic.month - 1, comic.day);
   title.textContent = comic.title;
   image.src = comic.img;
   image.alt = comic.alt;
