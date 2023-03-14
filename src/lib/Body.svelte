@@ -40,6 +40,7 @@
 <style>
   .listOfSkills {
     text-align: left;
+    padding-left: 5%;
   }
   li {
     padding-top: 10px;
