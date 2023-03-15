@@ -24,27 +24,8 @@
   </div>
   <div class="work2Right" />
 </div>
-<div class="listOfSkills">
-  <h3 class="h3skill">Skills</h3>
-  <ul>
-    <li>C++</li>
-    <li>Python</li>
-    <li>Git</li>
-    <li>Verilog</li>
-    <li>Shell</li>
-    <li>Sql</li>
-    <li>Linux</li>
-  </ul>
-</div>
 
 <style>
-  .listOfSkills {
-    text-align: left;
-    padding-left: 5%;
-  }
-  li {
-    padding-top: 10px;
-  }
   p {
     text-align: left;
     margin-left: 5%;
