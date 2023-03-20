@@ -1,13 +1,5 @@
 <script lang="ts">
-  interface comicInterface {
-    day: string;
-    month: string;
-    year: string;
-    alt: string;
-    img: string;
-    title: string;
-  }
-
+  import type { comicInterface } from "./Comic";
   const myEmail: string = "s.pasynkov@innopolis.university";
   const iuLink: string = "https://fwd.innopolis.app/api/hw2";
   const comicLink: string = "https://getxkcd.vercel.app/api/comic";
@@ -36,6 +28,11 @@
   }
   const comicImage: Promise<comicInterface> = getComic();
 </script>
+
+<svelte:head>
+  <title>Comic</title>
+  <meta name="description" content="Comic" />
+</svelte:head>
 
 <div>
   {#await comicImage}
