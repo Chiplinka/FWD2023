@@ -1,6 +1,6 @@
 <div class="header">
   <img class="resize" src="img/SergeyPasynkov.jpg" alt="Me" />
-  <h1>Hello, I am Sergey Pasynkov</h1>
+  <h1>Hello, I am Sergey Pasynkov 👋</h1>
 </div>
 
 <style>
