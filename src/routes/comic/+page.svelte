@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Comic from "../../components/Comic.svelte";
+  import Comic from "../../lib/Comic.svelte";
 </script>
 
 <svelte:head>
