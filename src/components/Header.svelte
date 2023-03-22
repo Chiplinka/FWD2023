@@ -1,6 +1,14 @@
+<script lang="ts">
+  import { base } from "$app/paths";
+</script>
+
 <div class="header">
   <img class="resize" src="img/SergeyPasynkov.jpg" alt="Me" />
   <h1>Hello, I am Sergey Pasynkov 👋</h1>
+  <nav>
+    <a href="{base}/">Home page</a>
+    <a href="{base}/comic">Comic page</a>
+  </nav>
 </div>
 
 <style>
